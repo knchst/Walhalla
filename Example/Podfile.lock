@@ -1,0 +1,14 @@
+PODS:
+  - Walhalla (0.1.0)
+
+DEPENDENCIES:
+  - Walhalla (from `../`)
+
+EXTERNAL SOURCES:
+  Walhalla:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Walhalla: 765d7b2aa085076fad36170d01784e3b85c0a9cd
+
+COCOAPODS: 0.39.0

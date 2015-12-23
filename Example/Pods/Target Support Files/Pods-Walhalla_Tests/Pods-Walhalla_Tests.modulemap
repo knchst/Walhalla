@@ -1,0 +1,6 @@
+framework module Pods_Walhalla_Tests {
+  umbrella header "Pods-Walhalla_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,9 +7,33 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Add one line code like this 
+
+`FCAnimation().performAnimation(view, duration: 0.5, delay: 0.5, type: .Pop)`
+
+where you want to animate.
+
+Now has below types.
+
+```swift
+enum AnimationType {
+    case BounceLeft
+    case BounceRight
+    case BounceUp
+    case BounceDown
+    case FadeIn
+    case FadeOut
+    case ZoomIn
+    case ZoomOut
+    case Pop
+    case Stretch
+    case Shake
+}
+```
 
 ## Requirements
+
+iOS 8.0+
 
 ## Installation
 

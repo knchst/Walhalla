@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11D70A49D60080AE4057BE7BC25A6001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		24CD9D74BD8D2FB8C7EC51A595AE770D /* Walhalla.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DEA096C59B2CC245C8D6BD6A0FC8E5A3 /* Walhalla.bundle */; };
+		29E407A476BA629CEA7BB53FEEC667FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		429C29FB006E2E50D0755512231254CD /* Walhalla-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD49F83AC23F744E74B0A9E4B3ABAE00 /* Walhalla-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F22C4C23265833D0B49643FDB009ECC /* Pods-Walhalla_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1696A881045CBCE5CC26C87D8C11DE4 /* Pods-Walhalla_Example-dummy.m */; };
+		611F049A7510CC841D96332F6717EE27 /* Pods-Walhalla_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C80F8DE913D5382E85A09272BBDFD0 /* Pods-Walhalla_Tests-dummy.m */; };
+		6F6E5A7AE78E1D486BC7A54ED7CC9156 /* Walhalla-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9760D0A5E7CEE17DD4B1429D1C5CE2 /* Walhalla-dummy.m */; };
+		ADE0785218AF596E33255E6EA7578BE4 /* Pods-Walhalla_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADE310B8AC83EFE683904A6D9A5311A1 /* Pods-Walhalla_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1919EA4C892416B24F07FFA01DBD87C /* Pods-Walhalla_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3932178A3D1C069D18255F631DC7AB05 /* Pods-Walhalla_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECAF07EEE04B2044676FCB6DD429A15C /* Walhalla.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB829C9F452E3BE327D75F47B03501FE /* Walhalla.swift */; };
+		F18722F0FD0FA2A56B9B161AD897141F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		363704316EA5941FAAEA4FEE1767632E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7559EDFD0B0EA295E97E17B24F017529;
+			remoteInfo = "Walhalla-Walhalla";
+		};
+		9B21648C3FEDE6663AD47D71F22BA843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0029073260EA1D7432F6FFEC3290D133;
+			remoteInfo = Walhalla;
+		};
+		D60CABA75869AA818E3B637A81225C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0029073260EA1D7432F6FFEC3290D133;
+			remoteInfo = Walhalla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C2E4A0E6B2348E79E73F8015CE92FC /* Pods-Walhalla_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Walhalla_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17CE523032C1986D7AD29CAB89A14BE1 /* Pods-Walhalla_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Walhalla_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		35482E6089E46BA1CDD6D716E17BF094 /* Pods-Walhalla_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walhalla_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3606E263615189071D9BFBD774511A4F /* Pods-Walhalla_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walhalla_Tests-resources.sh"; sourceTree = "<group>"; };
+		3932178A3D1C069D18255F631DC7AB05 /* Pods-Walhalla_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Walhalla_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4053E228899A1187DDED6C99F31A9967 /* Pods_Walhalla_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walhalla_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4825ECB48FA7B09152C9A09BE1B58846 /* Walhalla.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Walhalla.modulemap; sourceTree = "<group>"; };
+		5321BD1CE8B6225B163289282C74065D /* Walhalla.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Walhalla.xcconfig; sourceTree = "<group>"; };
+		6A6CA758E0A68E8BBC84F790FD4EA2AD /* Pods-Walhalla_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walhalla_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8D9FE99CA9E3307C819804C5A7324244 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912D70C56500CDE4B01DF5E93D8C1472 /* Pods-Walhalla_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walhalla_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		96D53AEA334357680F9C9D5B06866C35 /* Pods_Walhalla_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walhalla_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		972264796BBBAC787E569B49204075C3 /* Pods-Walhalla_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Walhalla_Example.modulemap"; sourceTree = "<group>"; };
+		A63F0D23D9934DE97EDCF874F02CE316 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8799DBA35ED9D2FB315116DDCEE1A31 /* Pods-Walhalla_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Walhalla_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ADE310B8AC83EFE683904A6D9A5311A1 /* Pods-Walhalla_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Walhalla_Example-umbrella.h"; sourceTree = "<group>"; };
+		AFDC608158F8FF3430444C6ABE3EAD02 /* Pods-Walhalla_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walhalla_Example-resources.sh"; sourceTree = "<group>"; };
+		B1696A881045CBCE5CC26C87D8C11DE4 /* Pods-Walhalla_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Walhalla_Example-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB829C9F452E3BE327D75F47B03501FE /* Walhalla.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walhalla.swift; sourceTree = "<group>"; };
+		BCF7772B047E8881E24D23B12B6B1CB7 /* Pods-Walhalla_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walhalla_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C041C00C4493E4CE915DCE2CE03ABC31 /* Pods-Walhalla_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walhalla_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C4CC959624E3A716D4E1F7A985AC8BD3 /* Pods-Walhalla_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walhalla_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD49F83AC23F744E74B0A9E4B3ABAE00 /* Walhalla-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Walhalla-umbrella.h"; sourceTree = "<group>"; };
+		DE3FCA39E88D7555509C984EA324D2A2 /* Walhalla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Walhalla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA096C59B2CC245C8D6BD6A0FC8E5A3 /* Walhalla.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Walhalla.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C80F8DE913D5382E85A09272BBDFD0 /* Pods-Walhalla_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Walhalla_Tests-dummy.m"; sourceTree = "<group>"; };
+		E438C0F17AAFC3F4130A229025634770 /* Pods-Walhalla_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Walhalla_Tests.modulemap"; sourceTree = "<group>"; };
+		E455B3E3B044D657396485AEA3B57960 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9760D0A5E7CEE17DD4B1429D1C5CE2 /* Walhalla-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Walhalla-dummy.m"; sourceTree = "<group>"; };
+		ED15E29A3C9C8FDF304115FB92DAC195 /* Pods-Walhalla_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Walhalla_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F9B91D8CE3CC2B134F6B34599D5D839E /* Walhalla-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Walhalla-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03A42C17FCF0F72C6A809B21BED76FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D70A49D60080AE4057BE7BC25A6001 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0434D6646EAB988522A8BE2D40FC8765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18722F0FD0FA2A56B9B161AD897141F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB33B5EB0966A29FEE7C59A088BD843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E270A3D35F170CB090B48C38E7DB0D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E407A476BA629CEA7BB53FEEC667FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C5F585C944BCC5B6EB5C8CCA9D64A2 /* Pods-Walhalla_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8D9FE99CA9E3307C819804C5A7324244 /* Info.plist */,
+				972264796BBBAC787E569B49204075C3 /* Pods-Walhalla_Example.modulemap */,
+				01C2E4A0E6B2348E79E73F8015CE92FC /* Pods-Walhalla_Example-acknowledgements.markdown */,
+				17CE523032C1986D7AD29CAB89A14BE1 /* Pods-Walhalla_Example-acknowledgements.plist */,
+				B1696A881045CBCE5CC26C87D8C11DE4 /* Pods-Walhalla_Example-dummy.m */,
+				6A6CA758E0A68E8BBC84F790FD4EA2AD /* Pods-Walhalla_Example-frameworks.sh */,
+				AFDC608158F8FF3430444C6ABE3EAD02 /* Pods-Walhalla_Example-resources.sh */,
+				ADE310B8AC83EFE683904A6D9A5311A1 /* Pods-Walhalla_Example-umbrella.h */,
+				BCF7772B047E8881E24D23B12B6B1CB7 /* Pods-Walhalla_Example.debug.xcconfig */,
+				C041C00C4493E4CE915DCE2CE03ABC31 /* Pods-Walhalla_Example.release.xcconfig */,
+			);
+			name = "Pods-Walhalla_Example";
+			path = "Target Support Files/Pods-Walhalla_Example";
+			sourceTree = "<group>";
+		};
+		0721ED54EB88D7E8718373B799B0E735 /* Pods-Walhalla_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A63F0D23D9934DE97EDCF874F02CE316 /* Info.plist */,
+				E438C0F17AAFC3F4130A229025634770 /* Pods-Walhalla_Tests.modulemap */,
+				A8799DBA35ED9D2FB315116DDCEE1A31 /* Pods-Walhalla_Tests-acknowledgements.markdown */,
+				ED15E29A3C9C8FDF304115FB92DAC195 /* Pods-Walhalla_Tests-acknowledgements.plist */,
+				E1C80F8DE913D5382E85A09272BBDFD0 /* Pods-Walhalla_Tests-dummy.m */,
+				912D70C56500CDE4B01DF5E93D8C1472 /* Pods-Walhalla_Tests-frameworks.sh */,
+				3606E263615189071D9BFBD774511A4F /* Pods-Walhalla_Tests-resources.sh */,
+				3932178A3D1C069D18255F631DC7AB05 /* Pods-Walhalla_Tests-umbrella.h */,
+				C4CC959624E3A716D4E1F7A985AC8BD3 /* Pods-Walhalla_Tests.debug.xcconfig */,
+				35482E6089E46BA1CDD6D716E17BF094 /* Pods-Walhalla_Tests.release.xcconfig */,
+			);
+			name = "Pods-Walhalla_Tests";
+			path = "Target Support Files/Pods-Walhalla_Tests";
+			sourceTree = "<group>";
+		};
+		0CA014580435FD4436C8CA2E80D8F793 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06C5F585C944BCC5B6EB5C8CCA9D64A2 /* Pods-Walhalla_Example */,
+				0721ED54EB88D7E8718373B799B0E735 /* Pods-Walhalla_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		33972467BAD893226E3D00EC08AA145A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96D53AEA334357680F9C9D5B06866C35 /* Pods_Walhalla_Example.framework */,
+				4053E228899A1187DDED6C99F31A9967 /* Pods_Walhalla_Tests.framework */,
+				DEA096C59B2CC245C8D6BD6A0FC8E5A3 /* Walhalla.bundle */,
+				DE3FCA39E88D7555509C984EA324D2A2 /* Walhalla.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A53153038221FC4B3A0A8864817F1C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E455B3E3B044D657396485AEA3B57960 /* Info.plist */,
+				4825ECB48FA7B09152C9A09BE1B58846 /* Walhalla.modulemap */,
+				5321BD1CE8B6225B163289282C74065D /* Walhalla.xcconfig */,
+				EA9760D0A5E7CEE17DD4B1429D1C5CE2 /* Walhalla-dummy.m */,
+				F9B91D8CE3CC2B134F6B34599D5D839E /* Walhalla-prefix.pch */,
+				DD49F83AC23F744E74B0A9E4B3ABAE00 /* Walhalla-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Walhalla";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				CAFA4DE3E6076665EFFB27E079AE2D17 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				33972467BAD893226E3D00EC08AA145A /* Products */,
+				0CA014580435FD4436C8CA2E80D8F793 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B07D35B5B4AAB0586476247A9CDE5BB8 /* Walhalla */ = {
+			isa = PBXGroup;
+			children = (
+				CE5AB731E7BBD76E224F719C56E2E6BF /* Pod */,
+				6A53153038221FC4B3A0A8864817F1C0 /* Support Files */,
+			);
+			name = Walhalla;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B1309370BD49D9565CDB622003D39221 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB829C9F452E3BE327D75F47B03501FE /* Walhalla.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CAFA4DE3E6076665EFFB27E079AE2D17 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B07D35B5B4AAB0586476247A9CDE5BB8 /* Walhalla */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CE5AB731E7BBD76E224F719C56E2E6BF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B1309370BD49D9565CDB622003D39221 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		078824873DDBD963057A58215C2AD962 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1919EA4C892416B24F07FFA01DBD87C /* Pods-Walhalla_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5551DDB3B3D6242849D1964D881436AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429C29FB006E2E50D0755512231254CD /* Walhalla-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F580374A4FE528292C609B0ACE064D06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE0785218AF596E33255E6EA7578BE4 /* Pods-Walhalla_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0029073260EA1D7432F6FFEC3290D133 /* Walhalla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B8F9D0575FE38AECD9FD5FD24D8D0C /* Build configuration list for PBXNativeTarget "Walhalla" */;
+			buildPhases = (
+				441991A723542926A68D6A6EA0011070 /* Sources */,
+				03A42C17FCF0F72C6A809B21BED76FA4 /* Frameworks */,
+				E876BDFFDB4076A7D5058EE38216244F /* Resources */,
+				5551DDB3B3D6242849D1964D881436AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC3013481D2548AE2341652A7350CCE /* PBXTargetDependency */,
+			);
+			name = Walhalla;
+			productName = Walhalla;
+			productReference = DE3FCA39E88D7555509C984EA324D2A2 /* Walhalla.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7559EDFD0B0EA295E97E17B24F017529 /* Walhalla-Walhalla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC6D3133A66998057B4B3D52FDA1459 /* Build configuration list for PBXNativeTarget "Walhalla-Walhalla" */;
+			buildPhases = (
+				C7CFBD61367E6BA4F6B2EC24FEA7C7E1 /* Sources */,
+				9EB33B5EB0966A29FEE7C59A088BD843 /* Frameworks */,
+				98A8F353EFA0355984B9EEBB44093085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Walhalla-Walhalla";
+			productName = "Walhalla-Walhalla";
+			productReference = DEA096C59B2CC245C8D6BD6A0FC8E5A3 /* Walhalla.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		80AF249B516E06B5F743A56D3FF0C6F3 /* Pods-Walhalla_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036F450E13046943ECCEE719C992E941 /* Build configuration list for PBXNativeTarget "Pods-Walhalla_Tests" */;
+			buildPhases = (
+				EA6756B794F094425B6702EE8F82522D /* Sources */,
+				0434D6646EAB988522A8BE2D40FC8765 /* Frameworks */,
+				078824873DDBD963057A58215C2AD962 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D06E3108CA3B7016FB628EA609CF383 /* PBXTargetDependency */,
+			);
+			name = "Pods-Walhalla_Tests";
+			productName = "Pods-Walhalla_Tests";
+			productReference = 4053E228899A1187DDED6C99F31A9967 /* Pods_Walhalla_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC901B66216DC85F8235C992E4215BB3 /* Pods-Walhalla_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700A317F998D2CF688A2CAF9B4529356 /* Build configuration list for PBXNativeTarget "Pods-Walhalla_Example" */;
+			buildPhases = (
+				122F0CFE3FE8B22B8C0098673A6F5C99 /* Sources */,
+				E270A3D35F170CB090B48C38E7DB0D5E /* Frameworks */,
+				F580374A4FE528292C609B0ACE064D06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9316D3EC9C8AFBD870603E11CB406183 /* PBXTargetDependency */,
+			);
+			name = "Pods-Walhalla_Example";
+			productName = "Pods-Walhalla_Example";
+			productReference = 96D53AEA334357680F9C9D5B06866C35 /* Pods_Walhalla_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 33972467BAD893226E3D00EC08AA145A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC901B66216DC85F8235C992E4215BB3 /* Pods-Walhalla_Example */,
+				80AF249B516E06B5F743A56D3FF0C6F3 /* Pods-Walhalla_Tests */,
+				0029073260EA1D7432F6FFEC3290D133 /* Walhalla */,
+				7559EDFD0B0EA295E97E17B24F017529 /* Walhalla-Walhalla */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98A8F353EFA0355984B9EEBB44093085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E876BDFFDB4076A7D5058EE38216244F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CD9D74BD8D2FB8C7EC51A595AE770D /* Walhalla.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		122F0CFE3FE8B22B8C0098673A6F5C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F22C4C23265833D0B49643FDB009ECC /* Pods-Walhalla_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441991A723542926A68D6A6EA0011070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAF07EEE04B2044676FCB6DD429A15C /* Walhalla.swift in Sources */,
+				6F6E5A7AE78E1D486BC7A54ED7CC9156 /* Walhalla-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CFBD61367E6BA4F6B2EC24FEA7C7E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6756B794F094425B6702EE8F82522D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611F049A7510CC841D96332F6717EE27 /* Pods-Walhalla_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EC3013481D2548AE2341652A7350CCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Walhalla-Walhalla";
+			target = 7559EDFD0B0EA295E97E17B24F017529 /* Walhalla-Walhalla */;
+			targetProxy = 363704316EA5941FAAEA4FEE1767632E /* PBXContainerItemProxy */;
+		};
+		7D06E3108CA3B7016FB628EA609CF383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Walhalla;
+			target = 0029073260EA1D7432F6FFEC3290D133 /* Walhalla */;
+			targetProxy = D60CABA75869AA818E3B637A81225C7F /* PBXContainerItemProxy */;
+		};
+		9316D3EC9C8AFBD870603E11CB406183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Walhalla;
+			target = 0029073260EA1D7432F6FFEC3290D133 /* Walhalla */;
+			targetProxy = 9B21648C3FEDE6663AD47D71F22BA843 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		110AE1A91EA47AE1984933A7BE04E814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5321BD1CE8B6225B163289282C74065D /* Walhalla.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Walhalla;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		862F7162174B1115F6AFEAE7FB323200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF7772B047E8881E24D23B12B6B1CB7 /* Pods-Walhalla_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Walhalla_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Walhalla_Example/Pods-Walhalla_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Walhalla_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91B5BAE758FBB7C23E9DCC3545B36266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35482E6089E46BA1CDD6D716E17BF094 /* Pods-Walhalla_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Walhalla_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Walhalla_Tests/Pods-Walhalla_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Walhalla_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A17EF1A5CA9B813D0F9D1D55FDC39323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4CC959624E3A716D4E1F7A985AC8BD3 /* Pods-Walhalla_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Walhalla_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Walhalla_Tests/Pods-Walhalla_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Walhalla_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9F6FCE53E2A8E890F19C61CAF10434A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5321BD1CE8B6225B163289282C74065D /* Walhalla.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Walhalla/Walhalla-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Walhalla/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Walhalla/Walhalla.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Walhalla;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D24F7AD912743319BE3CCDD7DB4047CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C041C00C4493E4CE915DCE2CE03ABC31 /* Pods-Walhalla_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Walhalla_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Walhalla_Example/Pods-Walhalla_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Walhalla_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9EA37B84A6FB50270494FD26991842E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5321BD1CE8B6225B163289282C74065D /* Walhalla.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Walhalla/Walhalla-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Walhalla/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Walhalla/Walhalla.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Walhalla;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA96EEE415DE79A4633734789ECBCC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5321BD1CE8B6225B163289282C74065D /* Walhalla.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Walhalla;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036F450E13046943ECCEE719C992E941 /* Build configuration list for PBXNativeTarget "Pods-Walhalla_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17EF1A5CA9B813D0F9D1D55FDC39323 /* Debug */,
+				91B5BAE758FBB7C23E9DCC3545B36266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B8F9D0575FE38AECD9FD5FD24D8D0C /* Build configuration list for PBXNativeTarget "Walhalla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9EA37B84A6FB50270494FD26991842E /* Debug */,
+				A9F6FCE53E2A8E890F19C61CAF10434A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC6D3133A66998057B4B3D52FDA1459 /* Build configuration list for PBXNativeTarget "Walhalla-Walhalla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110AE1A91EA47AE1984933A7BE04E814 /* Debug */,
+				DA96EEE415DE79A4633734789ECBCC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700A317F998D2CF688A2CAF9B4529356 /* Build configuration list for PBXNativeTarget "Pods-Walhalla_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862F7162174B1115F6AFEAE7FB323200 /* Debug */,
+				D24F7AD912743319BE3CCDD7DB4047CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
