@@ -37,7 +37,6 @@ class Walhalla {
         case .Pop: pop(view, duration: duration, delay: delay)
         case .Stretch: stretch(view, duration: duration, delay: delay)
         case .Shake: shake(view, duration: duration, delay: delay)
-        default: return
         }
     }
 }
