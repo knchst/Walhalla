@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9004C0F4F07B586B4D83802C'
+               BlueprintIdentifier = '9AAA7D23F9A9E3254569ABCD'
                BlueprintName = 'Walhalla'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Walhalla.framework'>

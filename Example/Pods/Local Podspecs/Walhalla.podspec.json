@@ -1,17 +1,18 @@
 {
   "name": "Walhalla",
   "version": "0.1.0",
-  "summary": "A short description of Walhalla.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Walhalla",
+  "summary": "Walhalla is simple animation library.",
+  "description": "Walhalla is simple animation library.\nYou can add animation to UIView components with single line.",
+  "homepage": "https://github.com/knchst0704/Walhalla",
   "license": "MIT",
   "authors": {
     "knchst0704": "knchst0704@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/Walhalla.git",
+    "git": "https://github.com/knchst0704/Walhalla.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://www.facebook.com/knchst",
   "platforms": {
     "ios": "8.0"
   },

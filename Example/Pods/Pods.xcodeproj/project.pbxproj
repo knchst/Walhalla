@@ -10,13 +10,13 @@
 		11D70A49D60080AE4057BE7BC25A6001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		24CD9D74BD8D2FB8C7EC51A595AE770D /* Walhalla.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DEA096C59B2CC245C8D6BD6A0FC8E5A3 /* Walhalla.bundle */; };
 		29E407A476BA629CEA7BB53FEEC667FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3A747C56B0DD91F90047F90EF0C76DD9 /* Walhalla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FA045B201AE07CA0671B36469EEAAF /* Walhalla.swift */; };
 		429C29FB006E2E50D0755512231254CD /* Walhalla-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD49F83AC23F744E74B0A9E4B3ABAE00 /* Walhalla-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F22C4C23265833D0B49643FDB009ECC /* Pods-Walhalla_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1696A881045CBCE5CC26C87D8C11DE4 /* Pods-Walhalla_Example-dummy.m */; };
 		611F049A7510CC841D96332F6717EE27 /* Pods-Walhalla_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C80F8DE913D5382E85A09272BBDFD0 /* Pods-Walhalla_Tests-dummy.m */; };
-		6F6E5A7AE78E1D486BC7A54ED7CC9156 /* Walhalla-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9760D0A5E7CEE17DD4B1429D1C5CE2 /* Walhalla-dummy.m */; };
 		ADE0785218AF596E33255E6EA7578BE4 /* Pods-Walhalla_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADE310B8AC83EFE683904A6D9A5311A1 /* Pods-Walhalla_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1919EA4C892416B24F07FFA01DBD87C /* Pods-Walhalla_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3932178A3D1C069D18255F631DC7AB05 /* Pods-Walhalla_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECAF07EEE04B2044676FCB6DD429A15C /* Walhalla.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB829C9F452E3BE327D75F47B03501FE /* Walhalla.swift */; };
+		D8A8ABC4AEF7698C8A12F651B82C125B /* Walhalla-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9760D0A5E7CEE17DD4B1429D1C5CE2 /* Walhalla-dummy.m */; };
 		F18722F0FD0FA2A56B9B161AD897141F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +47,7 @@
 /* Begin PBXFileReference section */
 		01C2E4A0E6B2348E79E73F8015CE92FC /* Pods-Walhalla_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Walhalla_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		17CE523032C1986D7AD29CAB89A14BE1 /* Pods-Walhalla_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Walhalla_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		20FA045B201AE07CA0671B36469EEAAF /* Walhalla.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walhalla.swift; sourceTree = "<group>"; };
 		35482E6089E46BA1CDD6D716E17BF094 /* Pods-Walhalla_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walhalla_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3606E263615189071D9BFBD774511A4F /* Pods-Walhalla_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walhalla_Tests-resources.sh"; sourceTree = "<group>"; };
 		3932178A3D1C069D18255F631DC7AB05 /* Pods-Walhalla_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Walhalla_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		AFDC608158F8FF3430444C6ABE3EAD02 /* Pods-Walhalla_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walhalla_Example-resources.sh"; sourceTree = "<group>"; };
 		B1696A881045CBCE5CC26C87D8C11DE4 /* Pods-Walhalla_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Walhalla_Example-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB829C9F452E3BE327D75F47B03501FE /* Walhalla.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walhalla.swift; sourceTree = "<group>"; };
 		BCF7772B047E8881E24D23B12B6B1CB7 /* Pods-Walhalla_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walhalla_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C041C00C4493E4CE915DCE2CE03ABC31 /* Pods-Walhalla_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walhalla_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C4CC959624E3A716D4E1F7A985AC8BD3 /* Pods-Walhalla_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walhalla_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -171,6 +171,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4D174E4A8BEC6A6B87572892B5F4D59D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				20FA045B201AE07CA0671B36469EEAAF /* Walhalla.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6A53153038221FC4B3A0A8864817F1C0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,14 +214,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		B1309370BD49D9565CDB622003D39221 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BB829C9F452E3BE327D75F47B03501FE /* Walhalla.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,7 +241,7 @@
 		CE5AB731E7BBD76E224F719C56E2E6BF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B1309370BD49D9565CDB622003D39221 /* Classes */,
+				4D174E4A8BEC6A6B87572892B5F4D59D /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -280,7 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33B8F9D0575FE38AECD9FD5FD24D8D0C /* Build configuration list for PBXNativeTarget "Walhalla" */;
 			buildPhases = (
-				441991A723542926A68D6A6EA0011070 /* Sources */,
+				97DEEBC8BB9D441FBA315417EB3A6D3A /* Sources */,
 				03A42C17FCF0F72C6A809B21BED76FA4 /* Frameworks */,
 				E876BDFFDB4076A7D5058EE38216244F /* Resources */,
 				5551DDB3B3D6242849D1964D881436AA /* Headers */,
@@ -404,12 +404,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		441991A723542926A68D6A6EA0011070 /* Sources */ = {
+		97DEEBC8BB9D441FBA315417EB3A6D3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECAF07EEE04B2044676FCB6DD429A15C /* Walhalla.swift in Sources */,
-				6F6E5A7AE78E1D486BC7A54ED7CC9156 /* Walhalla-dummy.m in Sources */,
+				D8A8ABC4AEF7698C8A12F651B82C125B /* Walhalla-dummy.m in Sources */,
+				3A747C56B0DD91F90047F90EF0C76DD9 /* Walhalla.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

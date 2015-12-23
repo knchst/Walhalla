@@ -47,7 +47,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        Walhalla().performAnimation(animateView, duration: 0.4, delay: 0, type: types[Array(types.keys)[row]]!)
+        Walhalla.performAnimation(animateView, duration: 0.4, delay: 0, type: types[Array(types.keys)[row]]!)
     }
     
     override func didReceiveMemoryWarning() {

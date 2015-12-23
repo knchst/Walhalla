@@ -9,7 +9,7 @@
 
 Add one line code like this 
 
-`FCAnimation().performAnimation(view, duration: 0.5, delay: 0.5, type: .Pop)`
+`Walhalla.performAnimation(view, duration: 0.5, delay: 0.5, type: .Pop)`
 
 where you want to animate.
 

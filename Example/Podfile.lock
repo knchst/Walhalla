@@ -6,9 +6,9 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   Walhalla:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  Walhalla: 765d7b2aa085076fad36170d01784e3b85c0a9cd
+  Walhalla: 6d93769dec99c188bd4112f8cb1857dd2a874bc4
 
 COCOAPODS: 0.39.0
