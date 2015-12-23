@@ -8,9 +8,9 @@
 
 import UIKit
 
-class Walhalla {
+public class Walhalla {
     
-    enum AnimationType {
+    public enum AnimationType {
         case BounceLeft
         case BounceRight
         case BounceUp
@@ -24,7 +24,7 @@ class Walhalla {
         case Shake
     }
     
-    func performAnimation(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval, type: AnimationType) {
+    public static func performAnimation(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval, type: AnimationType) {
         switch type {
         case .BounceLeft: bounceLeft(view, duration: duration, delay: delay)
         case .BounceRight: bounceRight(view, duration: duration, delay: delay)
@@ -41,8 +41,8 @@ class Walhalla {
     }
 }
 
-extension Walhalla {
-    private func bounceLeft(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
+public extension Walhalla {
+    private static func bounceLeft(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
         view.transform = CGAffineTransformMakeTranslation(CGRectGetWidth(UIScreen.mainScreen().bounds), 0)
         UIView.animateKeyframesWithDuration(duration/4, delay: delay, options: UIViewKeyframeAnimationOptions(), animations: {
             view.transform = CGAffineTransformMakeTranslation(-10, 0)
@@ -62,7 +62,7 @@ extension Walhalla {
         })
     }
     
-    private func bounceRight(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
+    private static func bounceRight(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
         view.transform = CGAffineTransformMakeTranslation(-CGRectGetWidth(UIScreen.mainScreen().bounds), 0)
         UIView.animateKeyframesWithDuration(duration/4, delay: delay, options: UIViewKeyframeAnimationOptions(), animations: {
             view.transform = CGAffineTransformMakeTranslation(10, 0)
@@ -82,7 +82,7 @@ extension Walhalla {
         })
     }
     
-    private func bounceUp(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
+    private static func bounceUp(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
         view.transform = CGAffineTransformMakeTranslation(0, CGRectGetWidth(UIScreen.mainScreen().bounds))
         UIView.animateKeyframesWithDuration(duration/4, delay: delay, options: UIViewKeyframeAnimationOptions(), animations: {
             view.transform = CGAffineTransformMakeTranslation(0, 10)
@@ -102,7 +102,7 @@ extension Walhalla {
         })
     }
     
-    private func bounceDown(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
+    private static func bounceDown(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
         view.transform = CGAffineTransformMakeTranslation(0, -CGRectGetWidth(UIScreen.mainScreen().bounds))
         UIView.animateKeyframesWithDuration(duration/4, delay: delay, options: UIViewKeyframeAnimationOptions(), animations: {
             view.transform = CGAffineTransformMakeTranslation(0, -10)
@@ -122,7 +122,7 @@ extension Walhalla {
         })
     }
     
-    private func fadeIn(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
+    private static func fadeIn(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
         view.alpha = 0
         UIView.animateKeyframesWithDuration(duration, delay: delay, options: UIViewKeyframeAnimationOptions(), animations: {
             view.alpha = 1
@@ -130,7 +130,7 @@ extension Walhalla {
         })
     }
     
-    private func fadeOut(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
+    private static func fadeOut(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
         view.alpha = 1
         UIView.animateKeyframesWithDuration(duration, delay: delay, options: UIViewKeyframeAnimationOptions(), animations: {
             view.alpha = 0
@@ -138,7 +138,7 @@ extension Walhalla {
         })
     }
     
-    private func zoomIn(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
+    private static func zoomIn(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
         view.transform = CGAffineTransformMakeScale(1, 1)
         view.alpha = 1
         UIView.animateKeyframesWithDuration(duration, delay: delay, options: UIViewKeyframeAnimationOptions(), animations: {
@@ -148,7 +148,7 @@ extension Walhalla {
         })
     }
     
-    private func zoomOut(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
+    private static func zoomOut(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
         view.transform = CGAffineTransformMakeScale(2, 2)
         view.alpha = 0
         UIView.animateKeyframesWithDuration(duration, delay: delay, options: UIViewKeyframeAnimationOptions(), animations: {
@@ -158,7 +158,7 @@ extension Walhalla {
         })
     }
     
-    private func pop(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
+    private static func pop(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
         view.transform = CGAffineTransformMakeScale(1, 1)
         UIView.animateKeyframesWithDuration(duration/3, delay: delay, options: UIViewKeyframeAnimationOptions(), animations: {
             view.transform = CGAffineTransformMakeScale(1.2, 1.2)
@@ -174,7 +174,7 @@ extension Walhalla {
         })
     }
     
-    private func stretch(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
+    private static func stretch(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
         view.transform = CGAffineTransformMakeScale(1, 1)
         UIView.animateKeyframesWithDuration(duration/4, delay: delay, options: UIViewKeyframeAnimationOptions(), animations: {
             view.transform = CGAffineTransformMakeScale(1, 1.2)
@@ -194,7 +194,7 @@ extension Walhalla {
         })
     }
     
-    private func shake(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
+    private static func shake(view: UIView, duration: NSTimeInterval, delay: NSTimeInterval) {
         view.transform = CGAffineTransformMakeTranslation(0, 0)
         UIView.animateKeyframesWithDuration(duration/5, delay: delay, options: UIViewKeyframeAnimationOptions(), animations: {
             view.transform = CGAffineTransformMakeTranslation(30, 0)
